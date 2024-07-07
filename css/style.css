@@ -235,6 +235,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg {
   background-position: center center;
+  background-image:url(../images/test.jpg);
   width: 100%;
   float: left;
   position: relative;
@@ -868,19 +869,38 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .fh5co-bg .display-t h3 {
     font-size: 25px !important;
     min-height: 0;
   }
+
+  .fh5co-bg {
+    background-image: url("../images/test123.jpg");
+  }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .fh5co-bg .display-t h3 {
+    font-size: 20px !important;
+    min-height: 0;
+  }
+
+  .fh5co-bg .display-t span {
+    font-size: 16px !important;
+    min-height: 0;
+  }
+
+  .fh5co-bg .display-t p {
+    font-size: 16px !important;
+    min-height: 0;
   }
 }
 #fh5co-header .display-tc h2,
@@ -914,6 +934,11 @@ form label {
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header .display-tc .btn {
+    font-size: 10px;
+  }
 }
 
 #fh5co-counter {
@@ -1011,6 +1036,30 @@ form label {
   text-transform: uppercase;
   font-size: 12px;
   /* words */
+}
+
+@media screen and (max-width: 480px) {
+  .simply-countdown > .simply-section {
+    width: 60px;
+    height: 60px;
+  }
+
+  .simply-countdown > .simply-section > div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    width: 60px;
+  }
+
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 20px;
+  }
+
+  .simply-countdown > .simply-section .simply-word {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 8px;
+  }
 }
 
 #fh5co-testimonial,
